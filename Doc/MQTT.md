@@ -14,8 +14,6 @@ mqtt:
       device_class: energy
       state_class: total_increasing
       json_attributes_topic: "energy/solar"
-      last_reset_topic: "energy/solar"
-      last_reset_value_template: "1970-01-01T00:00:00+00:00"
       payload_available: "1"
       availability_mode: latest
       availability_topic: "energy/solar"
